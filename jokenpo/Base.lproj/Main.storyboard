@@ -15,108 +15,116 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="papel-amassado-fundo-branco_1232-2082" translatesAutoresizingMaskIntoConstraints="NO" id="9Dg-gs-wOc">
-                                <rect key="frame" x="-26" y="0.0" width="922" height="942"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="brown-paper-texture-background_1373-528" translatesAutoresizingMaskIntoConstraints="NO" id="IDm-Oa-Ths">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="kXm-h7-W30">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="904"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="iYd-bh-cUe">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Lu-E7-urn" userLabel="ViewCima">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="270"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zSl-Er-lsj" userLabel="Cima">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="272.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="JOKENPO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kAn-e8-L7q">
-                                                <rect key="frame" x="62" y="97" width="290.5" height="76"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JOKENPO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kAn-e8-L7q">
+                                                <rect key="frame" x="62" y="26" width="290.5" height="76"/>
                                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="60"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
-                                            <constraint firstItem="kAn-e8-L7q" firstAttribute="centerX" secondItem="5Lu-E7-urn" secondAttribute="centerX" id="MRy-Na-c0Z"/>
-                                            <constraint firstItem="kAn-e8-L7q" firstAttribute="centerY" secondItem="5Lu-E7-urn" secondAttribute="centerY" id="ZEw-zX-ajO"/>
-                                            <constraint firstItem="kAn-e8-L7q" firstAttribute="centerX" secondItem="5Lu-E7-urn" secondAttribute="centerX" id="eUC-uT-dPs"/>
+                                            <constraint firstItem="kAn-e8-L7q" firstAttribute="centerX" secondItem="zSl-Er-lsj" secondAttribute="centerX" id="7Km-8a-tz0"/>
+                                            <constraint firstItem="kAn-e8-L7q" firstAttribute="top" secondItem="zSl-Er-lsj" secondAttribute="top" constant="26" id="idU-dq-BpO"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qne-RY-BQ6" userLabel="ViewMeio">
-                                        <rect key="frame" x="0.0" y="270" width="414" height="289"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FHz-us-keW" userLabel="Meio">
+                                        <rect key="frame" x="0.0" y="272.5" width="414" height="273"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="JOGADOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MDR-5e-L0V">
-                                                <rect key="frame" x="20" y="20" width="143" height="35"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JOGADOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MDR-5e-L0V">
+                                                <rect key="frame" x="30" y="1" width="142.5" height="34.5"/>
                                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="27"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="MAQUINA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m0h-Dw-fLS">
-                                                <rect key="frame" x="255.5" y="20" width="138.5" height="34.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MAQUINA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m0h-Dw-fLS">
+                                                <rect key="frame" x="245.5" y="1" width="138.5" height="34.5"/>
                                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="27"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="m0h-Dw-fLS" secondAttribute="trailing" constant="20" id="7lR-f6-Ije"/>
-                                            <constraint firstItem="m0h-Dw-fLS" firstAttribute="top" secondItem="Qne-RY-BQ6" secondAttribute="top" constant="20" id="nfl-zt-vqN"/>
+                                            <constraint firstItem="MDR-5e-L0V" firstAttribute="leading" secondItem="FHz-us-keW" secondAttribute="leading" constant="30" id="ADG-dI-ai5"/>
+                                            <constraint firstItem="m0h-Dw-fLS" firstAttribute="top" secondItem="FHz-us-keW" secondAttribute="top" constant="1" id="FqP-Gh-Bdl"/>
+                                            <constraint firstAttribute="trailing" secondItem="m0h-Dw-fLS" secondAttribute="trailing" constant="30" id="KVu-GD-5gI"/>
+                                            <constraint firstItem="MDR-5e-L0V" firstAttribute="top" secondItem="FHz-us-keW" secondAttribute="top" constant="1" id="mVX-J7-HD7"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Cs-rB-fKy" userLabel="ViewBaixo">
-                                        <rect key="frame" x="0.0" y="559" width="414" height="345"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H18-5r-X3y" userLabel="Baixo">
+                                        <rect key="frame" x="0.0" y="545.5" width="414" height="272.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ESCOLHA SUA JOGADA:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Npj-wE-itt">
-                                                <rect key="frame" x="37" y="0.0" width="338" height="35"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="CAH-L7-9Ta">
+                                                <rect key="frame" x="22.5" y="114" width="369" height="44"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JhA-tf-V76">
+                                                        <rect key="frame" x="0.0" y="0.0" width="92" height="44"/>
+                                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
+                                                        <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                        <state key="normal" title="PEDRA"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YCc-Ie-1eu">
+                                                        <rect key="frame" x="127" y="0.0" width="88" height="44"/>
+                                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
+                                                        <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                        <state key="normal" title="PAPEL"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JjI-gg-Gqh">
+                                                        <rect key="frame" x="250" y="0.0" width="119" height="44"/>
+                                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="24"/>
+                                                        <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                        <state key="normal" title="TESOURA"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ESCOLHA SUA JOGADA:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Npj-wE-itt">
+                                                <rect key="frame" x="38.5" y="54.5" width="337.5" height="34.5"/>
                                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="27"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JhA-tf-V76">
-                                                <rect key="frame" x="148" y="139" width="117" height="45"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
-                                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                                <state key="normal" title="PEDRA"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YCc-Ie-1eu">
-                                                <rect key="frame" x="22" y="140" width="118" height="44"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
-                                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                                <state key="normal" title="PAPEL"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JjI-gg-Gqh">
-                                                <rect key="frame" x="273" y="139" width="119" height="43"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="24"/>
-                                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                                <state key="normal" title="TESOURA"/>
-                                            </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="CAH-L7-9Ta" firstAttribute="centerX" secondItem="H18-5r-X3y" secondAttribute="centerX" id="Tcf-ZB-nN5"/>
+                                            <constraint firstItem="Npj-wE-itt" firstAttribute="centerX" secondItem="H18-5r-X3y" secondAttribute="centerX" id="Z5p-AV-Lcq"/>
+                                            <constraint firstItem="CAH-L7-9Ta" firstAttribute="centerY" secondItem="H18-5r-X3y" secondAttribute="centerY" id="ZB8-kB-WlL"/>
+                                            <constraint firstItem="CAH-L7-9Ta" firstAttribute="top" secondItem="Npj-wE-itt" secondAttribute="bottom" constant="25" id="lGF-dN-BHt"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="9Dg-gs-wOc" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="APa-pA-IIZ"/>
-                            <constraint firstItem="9Dg-gs-wOc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="GEp-k3-Bmi"/>
-                            <constraint firstItem="9Dg-gs-wOc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vFS-MB-SkR"/>
-                            <constraint firstAttribute="bottom" secondItem="9Dg-gs-wOc" secondAttribute="bottom" id="x6L-cm-mjz"/>
+                            <constraint firstItem="IDm-Oa-Ths" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="1ql-85-wIi"/>
+                            <constraint firstItem="iYd-bh-cUe" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="M0X-g4-dJF"/>
+                            <constraint firstItem="iYd-bh-cUe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="NeO-Vl-MNq"/>
+                            <constraint firstItem="iYd-bh-cUe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TV2-Qn-rY0"/>
+                            <constraint firstItem="IDm-Oa-Ths" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fzS-qK-PUp"/>
+                            <constraint firstAttribute="bottom" secondItem="IDm-Oa-Ths" secondAttribute="bottom" id="ubr-Z5-GdH"/>
+                            <constraint firstItem="IDm-Oa-Ths" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="zKG-DP-122"/>
+                            <constraint firstAttribute="trailing" secondItem="iYd-bh-cUe" secondAttribute="trailing" id="zqO-Dt-a9m"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="505.79710144927537" y="-230.35714285714283"/>
+            <point key="canvasLocation" x="1229" y="-316"/>
         </scene>
     </scenes>
     <resources>
-        <image name="papel-amassado-fundo-branco_1232-2082" width="626" height="391"/>
+        <image name="brown-paper-texture-background_1373-528" width="626" height="626"/>
     </resources>
 </document>
